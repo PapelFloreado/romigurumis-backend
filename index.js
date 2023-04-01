@@ -38,6 +38,7 @@ server.post("/payment", (req, res)=>{
             failure: "http://localhost:5173/failure",
             pending: ""
         },
+        notification_url: "https://romigurumis-backend-production.up.railway.app/",
         auto_return: "approved",
         binary_mode: true
     }
